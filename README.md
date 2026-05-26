@@ -15,4 +15,4 @@ IN THIS,
 ### style.css
 
 
-# 2. 2. MAD 1 PROJECTS
+# 2. MAD 1 PROJECTS
