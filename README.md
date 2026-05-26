@@ -7,4 +7,12 @@ IN THIS,
 2. MAD 1 PROJECTS
 3. AND OTHER THINGS RELATED TO MAD 1 COURSE
 
-Checking....
+# 1. PPP
+
+**PPP PORTFOLIO PROJECT DAY 1**
+***INSIDE THIS***
+### index.html
+### style.css
+
+
+# 2. 2. MAD 1 PROJECTS
