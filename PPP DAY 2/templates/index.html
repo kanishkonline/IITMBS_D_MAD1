@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Home — {{ student.name }}{% endblock %}
+
+{% block content %}
+
+<section id="hero">
+    <h1>Hi, I'm {{ student.name }} 👋</h1>
+    <p class="tagline">{{ student.tagline }}</p>
+    <a href="{{ url_for('projects') }}" class="btn">See My Work</a>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        {% for skill in student.skills %}
+        <div class="skill-card">{{ skill }}</div>
+        {% endfor %}
+    </div>
+</section>
+
+<section id="subjects">
+    <h2>Current Subjects</h2>
+    <div class="skills-grid">
+        {% for subject in student.subjects %}
+        <div class="skill-card subject-card">{{ subject }}</div>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

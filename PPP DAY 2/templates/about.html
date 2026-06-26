@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}About — {{ student.name }}{% endblock %}
+
+{% block content %}
+
+<section id="about">
+    <h1>About Me</h1>
+    <p>{{ student.about }}</p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:{{ student.email }}">{{ student.email }}</a></p>
+    <p>GitHub: <a href="{{ student.github }}" target="_blank">{{ student.github }}</a></p>
+</section>
+
+{% endblock %}

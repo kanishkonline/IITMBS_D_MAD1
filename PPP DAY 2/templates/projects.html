@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Projects — {{ student.name }}{% endblock %}
+
+{% block content %}
+
+<section id="projects">
+    <h1>Projects</h1>
+
+    {% if student.projects %}
+        {% for project in student.projects %}
+        <div class="project-card">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.desc }}</p>
+            <div>
+                {% for tag in project.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No projects yet — check back soon!</p>
+    {% endif %}
+
+</section>
+
+{% endblock %}
