@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # All your data lives in Python — not in HTML
 student = {
-    'name': 'KANISHK SINGH',
+    'name': 'Kanishk Singh',
     'tagline': 'IIT Madras BS Data Science · Building with Python and Flask',
     'about': 'I am a Data Science student at IIT Madras, learning full-stack web development with Python and Flask. Also building a YouTube channel and exploring machine learning.',
     'subjects': ['MAD 1', 'MLF', 'MLT', 'DBMS'],
