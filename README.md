@@ -9,10 +9,15 @@ IN THIS,
 
 # 1. PPP
 
-**PPP PORTFOLIO PROJECT DAY 1**
+**PPP DAY 1 PORTFOLIO WITH HTML CSS**
 ***INSIDE THIS***
 ### index.html
 ### style.css
 
+***PPP DAY 2 PORTFOLIO WITH FLASK**
+***INSIDE THIS***
+**STATIC** - *style.css*
+**TEMPLATES** - *about.html*,*base.html*,*index.html*,*project.html*
+**app.py**
 
 # 2. MAD 1 PROJECTS
